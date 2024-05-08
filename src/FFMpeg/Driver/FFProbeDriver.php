@@ -20,10 +20,7 @@ use Psr\Log\LoggerInterface;
 
 class FFProbeDriver extends AbstractBinary
 {
-    /**
-     * {@inheritdoc}
-     */
-    public function getName()
+    public function getName(): string
     {
         return 'ffprobe';
     }
