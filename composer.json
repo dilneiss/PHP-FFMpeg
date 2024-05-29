@@ -1,5 +1,5 @@
 {
-    "name": "php-ffmpeg/php-ffmpeg",
+    "name": "dilneiss/php-ffmpeg",
     "type": "library",
     "description": "FFMpeg PHP, an Object Oriented library to communicate with AVconv / ffmpeg",
     "keywords": [
@@ -48,17 +48,17 @@
     "require": {
         "php": ">=8.0",
         "evenement/evenement": "^3.0",
-        "psr/log": "^1.0 || ^2.0 || ^3.0",
-        "spatie/temporary-directory": "^2.0",
-        "symfony/process": "^5.4 || ^6.0 || ^7.0",
-        "symfony/cache": "^5.4 || ^6.0 || ^7.0"
+        "psr/log": "^1.0 || ^2.0 || ^3.0 || ^4.0",
+        "spatie/temporary-directory": "^2.0 || ^3.0 || ^4.0",
+        "symfony/process": "^5.4 || ^6.0 || ^7.0 || ^8.0 || ^9.0 || ^10.0 || ^11.0",
+        "symfony/cache": "^5.4 || ^6.0 || ^7.0 || ^8.0 || ^9.0 || ^10.0 || ^11.0"
     },
     "suggest": {
         "php-ffmpeg/extras": "A compilation of common audio & video drivers for PHP-FFMpeg"
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.5.10",
-        "mockery/mockery": "^1.5"
+        "phpunit/phpunit": "^9.5.10 || ^10.0 || ^11.0 || ^12.0 || ^13.0 || ^14.0",
+        "mockery/mockery": "^1.5 || ^2.0 || ^3.0"
     },
     "autoload": {
         "psr-4": {
